@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placire - Placement Readiness</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#172747}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:bold;color:#244fe0}
+nav a{margin-left:18px;text-decoration:none;color:#596780}
+.btn{display:inline-block;background:#315be8;color:white;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+.hero{background:linear-gradient(120deg,#f0f4ff,#fff);padding:75px 7%;display:flex;align-items:center;gap:35px;flex-wrap:wrap}
+.left{flex:1;min-width:260px}
+.tag{color:#315be8;font-weight:bold;letter-spacing:2px;font-size:13px}
+h1{font-size:clamp(38px,6vw,62px);line-height:1.1;margin:20px 0}
+h1 span{color:#315be8}
+p{color:#68758b;line-height:1.8}
+.right{flex:1;min-width:260px;background:white;padding:25px;border-radius:20px;box-shadow:0 10px 35px #203c7515}
+.progress{background:#e2e9ff;height:9px;border-radius:10px;margin:15px 0}
+.progress div{background:#315be8;width:72%;height:100%;border-radius:10px}
+.stats{display:flex;gap:10px;margin-top:20px}
+.stat{flex:1;text-align:center;background:#f5f7ff;padding:14px 5px;border-radius:10px}
+.stat strong{display:block;color:#315be8;font-size:23px}
+section{padding:65px 7%}
+.heading{text-align:center;max-width:650px;margin:0 auto 35px}
+.heading h2{font-size:32px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{border:1px solid #e3e9f3;border-radius:15px;padding:24px}
+.icon{font-size:28px}
+.card h3{margin-bottom:8px}
+.dark{background:#102449;color:white}
+.dark p{color:#c4d0e5}
+.dark .card{background:#1a3156;border-color:#304568}
+.dark .heading h2{color:white}
+.cta{background:#f0f4ff;text-align:center}
+footer{text-align:center;padding:25px;color:#68758b;border-top:1px solid #eee}
+@media(max-width:600px){nav{display:none}.hero{padding-top:45px}.stats{gap:5px}.stat{font-size:12px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">placire</div>
+<nav>
+<a href="#features">Features</a>
+<a href="#how">How it works</a>
+<a href="#about">About</a>
+</nav>
+<a class="btn" href="#contact">Get started</a>
+</header>
+
+<main>
+<div class="hero">
+<div class="left">
+<div class="tag">YOUR CAREER, YOUR NEXT MOVE</div>
+<h1>Turn your potential into <span>placement readiness.</span></h1>
+<p>Preparing for placements can feel overwhelming. Placire brings coding practice, aptitude preparation and interview skills together, so you can build confidence one step at a time.</p>
+<a class="btn" href="#features">Explore features →</a>
+<p>Made for college students and future professionals.</p>
+</div>
+<div class="right">
+<h3>Your readiness dashboard</h3>
+<p>Weekly learning goal <b style="float:right">72%</b></p>
+<div class="progress"><div></div></div>
+<div class="stats">
+<div class="stat"><strong>01</strong>Coding</div>
+<div class="stat"><strong>02</strong>Aptitude</div>
+<div class="stat"><strong>03</strong>Interviews</div>
+</div>
+<p>Small, consistent steps add up.</p>
+</div>
+</div>
+
+<section id="features">
+<div class="heading">
+<div class="tag">PREPARE WITH PURPOSE</div>
+<h2>Everything you need to prepare, in one place</h2>
+<p>Focus on the skills employers look for with a learning journey designed for students.</p>
+</div>
+<div class="cards">
+<div class="card"><div class="icon">💻</div><h3>Coding Practice</h3><p>Strengthen programming fundamentals and practise problem-solving.</p></div>
+<div class="card"><div class="icon">🧠</div><h3>Aptitude Preparation</h3><p>Improve quantitative skills, logical reasoning and verbal ability.</p></div>
+<div class="card"><div class="icon">🎯</div><h3>Interview Readiness</h3><p>Prepare for interview questions and communicate your strengths clearly.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Learning Resources</h3><p>Access useful resources to support your placement preparation.</p></div>
+<div class="card"><div class="icon">📈</div><h3>Skill Development</h3><p>Identify areas to improve and follow a steady learning plan.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Build Confidence</h3><p>Make preparation a habit and get ready for new opportunities.</p></div>
+</div>
+</section>
+
+<section class="dark" id="how">
+<div class="heading">
+<div class="tag">YOUR NEXT STEP STARTS HERE</div>
+<h2>A simple path from student to job-ready</h2>
+<p>Start where you are. Improve one skill at a time.</p>
+</div>
+<div class="cards">
+<div class="card"><h3>01. Choose your focus</h3><p>Select coding, aptitude, interview preparation or another skill.</p></div>
+<div class="card"><h3>02. Practise consistently</h3><p>Set a manageable goal and practise regularly.</p></div>
+<div class="card"><h3>03. Build your confidence</h3><p>Review your progress and keep preparing for opportunities.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="heading">
+<h2>Your dream job starts with preparation.</h2>
+<p>Placire aims to make placement preparation more organised, accessible and less stressful for college students.</p>
+<a class="btn" href="#contact">Start preparing →</a>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<h2>Be part of the journey</h2>
+<p>Interested in Placire? Get in touch with the project team to learn more.</p>
+<a class="btn" href="mailto:placire.project@example.com">Contact the team</a>
+</section>
+</main>
+
+<footer>
+<div class="logo">placire</div>
+<p>Placire - Your career starts here.</p>
+<p>Student project landing page © 2026</p>
+</footer>
+</body>
+</html>
